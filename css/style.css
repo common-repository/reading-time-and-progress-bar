@@ -1,0 +1,12 @@
+/* Style for Reading Progress Bar */
+#reading-progress-bar {
+    position: fixed;    /* Fixed position to remain visible on scroll */
+    top: 0;             /* Position at the very top of the page */
+    left: 0;            /* Start from the left edge */
+    width: 0%;          /* Initial width set to 0% */
+    height: 5px;        /* Set a height for the progress bar */
+    background-color: #3498db; /* Bright blue color for visibility */
+    z-index: 1000;      /* High z-index to ensure it's above most other elements */
+}
+
+/* Additional styles can be added below as needed for your plugin's UI */
